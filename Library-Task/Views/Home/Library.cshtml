@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Library";
+}
+@model List<BookViewModel>
+
+<div class="text-center">
+    <h1 class="display-4">Library</h1>
+    <br />
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Published Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.PublishedYearDisplay</td>
+                    <td><a asp-action="CreateEditBook" asp-route-id="@book.Id">Edit</a></td>
+                    <td><a asp-action="DeleteBook" asp-route-id="@book.Id">Delete Book</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

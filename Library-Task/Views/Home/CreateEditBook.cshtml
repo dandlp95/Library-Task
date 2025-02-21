@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Edit Book";
+}
+@model Book
+
+<div class="text-center">
+    <h1 class="display-4">Edit Book</h1>
+</div>
+<form asp-action="CreateEditBookForm">
+    <input type="hidden" asp-for="Id" />
+
+    <label>Title</label>
+    <input class="form-control" type="text" placeholder="Enter Title" asp-for="Title"/>
+
+    <label>Author</label>
+    <input class="form-control" type="text" placeholder="Enter Author" asp-for="Author" />
+
+    <label>Published Year</label>
+    <input class="form-control" type="number" placeholder="Enter Published Year" asp-for="PublishedYear" />
+
+    <button class="btn btn-primary mt-4" type="submit">Save</button>
+</form>
