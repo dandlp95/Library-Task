@@ -109,3 +109,4 @@ C:\Users\dlp_d\source\repos\Library-Task\Library-Task\obj\Debug\net9.0\refint\Li
 C:\Users\dlp_d\source\repos\Library-Task\Library-Task\obj\Debug\net9.0\Library-Task.pdb
 C:\Users\dlp_d\source\repos\Library-Task\Library-Task\obj\Debug\net9.0\Library-Task.genruntimeconfig.cache
 C:\Users\dlp_d\source\repos\Library-Task\Library-Task\obj\Debug\net9.0\ref\Library-Task.dll
+C:\Users\dlp_d\source\repos\Library-Task\Library-Task\obj\Debug\net9.0\Library-Task.sourcelink.json
